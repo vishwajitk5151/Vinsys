@@ -1,0 +1,23 @@
+
+.container{
+    /* padding-left: 100px; */
+    margin-left: 400px;
+    
+    
+    background: aqua;
+    color:aqua;
+    height: 600px;
+    width: 600px;
+    display:flex;
+}
+.innercontainer{
+    justify-self:center;
+    top:0;
+    right: 0;
+    background: rgb(255, 17, 0);
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    
+}
