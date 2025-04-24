@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    
+    function getcolor(){
+        var color=document.getElementById('color').value;
+        document.getElementById('12').style.backgroundColor=color;
+    }
+    
+</script>
+<body>
+    <Input type="text" id="color"></Input>
+    <div id="12" style="height: 100px;width: 100px; border: 10px black solid; align-self: center; justify-self: center;">
+
+    </div>
+    <button onclick="getcolor()">Change Color</button>
+</body>
+</html>
